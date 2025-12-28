@@ -1,0 +1,1 @@
+console.log('Bu yazı introduction.js dosyasında')
