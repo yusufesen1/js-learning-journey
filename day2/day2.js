@@ -29,3 +29,20 @@ console.log(addNumb)
 let ilkAd = 'yusuf'
 console.log(ilkAd.length)
 
+//accessing characters
+let ikinciAd = 'miraz'
+let lastLetter = ikinciAd[4]
+console.log(lastLetter)
+
+//uppercase or lower case
+let isim = 'javascript'
+console.log(isim.toUpperCase())
+
+//substr - (kaçıncı indexten başlayacak, kaç uzunluk alacak)
+let word = 'javascript'
+console.log(word.substr(4,6))
+
+//substr "deprecated" yani kullanımı önerilmiyor. modern js'de substring veya slice tercih edilir
+//substring (kaçıncı indexten başlayacak, kaçıncı indexe kadar)
+let word2 = 'javascript'
+console.log(word2.substring(0,6))
